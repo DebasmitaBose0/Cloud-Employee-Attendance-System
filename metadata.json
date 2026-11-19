@@ -1,0 +1,6 @@
+{
+  "name": "AttendCloud — Employee Attendance Management System",
+  "description": "Cloud-Based Employee Attendance Management System with role-based HR dashboards, daily attendance tracking, monthly reporting, and MongoDB persistence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

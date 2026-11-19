@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-sans: 'Public Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, monospace;
+    --brand-primary: #0f5257;
+    --brand-primary-hover: #0a3c40;
+    --surface-canvas: #f6f6f4;
+  }
+
+  html {
+    font-family: var(--font-sans);
+    color: #18181b;
+    background-color: var(--surface-canvas);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+  }
+
+  .font-mono, code, pre {
+    font-family: var(--font-mono);
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+@media print {
+  aside,
+  header,
+  .no-print {
+    display: none !important;
+  }
+
+  main {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+  }
+
+  body {
+    background: #ffffff !important;
+    color: #18181b !important;
+  }
+
+  .print-card {
+    border: 1px solid #d4d4d8 !important;
+    box-shadow: none !important;
+  }
+}
