@@ -1,6 +1,6 @@
 # AttendCloud — Cloud-Based Employee Attendance Management System
 
-A full-stack HR and employee attendance management platform built with React, Vite, Tailwind CSS, Express.js, and MongoDB (Mongoose). Designed for local development and production deployment on Ubuntu 22.04 (Oracle VirtualBox) and Amazon EC2 behind Nginx and PM2.
+A full-stack HR and employee attendance management platform system built with React, Vite, Tailwind CSS, Express.js, and MongoDB (Mongoose). Designed for local development and production deployment on Ubuntu 22.04 (Oracle VirtualBox) and Amazon EC2 behind Nginx and PM2.
 
 ## Key Features
 
